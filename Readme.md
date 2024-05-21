@@ -29,11 +29,23 @@ Após a execução do script, o resumo da regressão linear é apresentado, incl
 
 ### Equação da Regressão
 
-\[ \text{Selic} = \beta_0 + \beta_1 \times \text{IPCA} \]
+Selic=β 
+0
+​
+ +β 
+1
+​
+ ×IPCA
 
 Onde:
-- \(\beta_0\) é o intercepto.
-- \(\beta_1\) é o coeficiente da inflação (IPCA).
+- β 
+0
+​
+  é o intercepto.
+- β 
+1
+​
+  é o coeficiente da inflação (IPCA).
 
 ### Estatísticas do Modelo
 
@@ -48,8 +60,16 @@ Onde:
   - Valores próximos de 1 indicam que a inflação (IPCA) explica bem a variabilidade da taxa Selic.
   - Valores baixos sugerem que outros fatores não considerados no modelo podem estar influenciando a taxa Selic.
 - **Coeficientes da Regressão**:
-  - O intercepto (\(\beta_0\)) representa a taxa Selic estimada quando a inflação é zero.
-  - O coeficiente do IPCA (\(\beta_1\)) indica a variação esperada na taxa Selic para cada unidade de aumento na inflação.
+  - O intercepto  (
+𝛽
+0
+​
+ ) representa a taxa Selic estimada quando a inflação é zero.
+  - O coeficiente do IPCA  (
+𝛽
+1
+​
+ ) indica a variação esperada na taxa Selic para cada unidade de aumento na inflação.
 - **Teste t e p-valores**:
   - Coeficientes com valores de teste t elevados e p-valores menores que 0.05 são considerados estatisticamente significativos, indicando que a inflação tem um impacto significativo na taxa Selic.
 
