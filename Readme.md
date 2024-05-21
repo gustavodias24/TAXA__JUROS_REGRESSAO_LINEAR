@@ -38,11 +38,8 @@ Onde:
 ### Estatísticas do Modelo
 
 - **R-quadrado (R²)**: Indica a proporção da variabilidade na taxa Selic explicada pela inflação (IPCA). Varia de 0 a 1. Um valor próximo de 1 indica um bom ajuste do modelo aos dados.
-
 - **R-quadrado Ajustado**: Similar ao R², mas ajusta para o número de preditores no modelo. É útil para comparar modelos com diferentes números de preditores.
-
 - **Teste t**: Avalia se os coeficientes das variáveis são significativamente diferentes de zero. Um valor absoluto maior indica maior significância.
-
 - **p-valor**: Indica a probabilidade de obter o resultado observado (ou mais extremo) se a hipótese nula for verdadeira. Um p-valor menor que 0.05 geralmente indica significância estatística.
 
 ### Interpretação dos Resultados
@@ -50,11 +47,9 @@ Onde:
 - **R-quadrado e R-quadrado Ajustado**:
   - Valores próximos de 1 indicam que a inflação (IPCA) explica bem a variabilidade da taxa Selic.
   - Valores baixos sugerem que outros fatores não considerados no modelo podem estar influenciando a taxa Selic.
-
 - **Coeficientes da Regressão**:
   - O intercepto (\(\beta_0\)) representa a taxa Selic estimada quando a inflação é zero.
   - O coeficiente do IPCA (\(\beta_1\)) indica a variação esperada na taxa Selic para cada unidade de aumento na inflação.
-
 - **Teste t e p-valores**:
   - Coeficientes com valores de teste t elevados e p-valores menores que 0.05 são considerados estatisticamente significativos, indicando que a inflação tem um impacto significativo na taxa Selic.
 
